@@ -13,8 +13,6 @@ Linux:
 
 1. Run `kpm restore`
 2. Navigate to src\helloworldweb
-
-Choose a host:
-3a) WebListener: type "k web" and browse to http://localhost:5001
-3b) Nowin: type "k nowin" and browse to http://localhost:5002
-3c) Kestrel: type "k kestrel" and browse to http://localhost:5003
+3. For WebListener: type "k web" and browse to http://localhost:5001
+4. For Nowin: type "k nowin" and browse to http://localhost:5002
+5. For Kestrel: type "k kestrel" and browse to http://localhost:5003
