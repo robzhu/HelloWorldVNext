@@ -2,10 +2,12 @@
     "dependencies": {
         "Kestrel": "1.0.0-*",
         "Microsoft.AspNet.WebSockets.Server": "1.0.0-*",
+        "Microsoft.AspNet.Server.WebListener": "1.0.0-*",
         "Nowin.vNext": "1.0.0-*"
     },
     "commands": {
-        "web": "Microsoft.AspNet.Hosting --server Nowin.vNext",
-        "web-kestrel": "Microsoft.AspNet.Hosting --server Kestrel"
+    	"web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost:5001",
+        "nowin": "Microsoft.AspNet.Hosting --server Nowin.vNext --server.urls http://localhost:5002",
+        "kestrel": "Microsoft.AspNet.Hosting --server Kestrel --server.urls http://localhost:5003"
     }
 }
