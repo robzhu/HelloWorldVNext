@@ -3,8 +3,11 @@
 The instructions from the main ASP.net site are broken as of 12/4. 
 Install KVM from the dev branch:
 
-Windows: '@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/aspnet/Home/dev/kvminstall.ps1'))"'
-Linux: 'curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/kvminstall.sh | sh && source ~/.kre/kvm/kvm.sh'
+Windows: 
+`@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/aspnet/Home/dev/kvminstall.ps1'))"`
+
+Linux: 
+`curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/kvminstall.sh | sh && source ~/.kre/kvm/kvm.sh`
 
 ## Running the samples 
 
